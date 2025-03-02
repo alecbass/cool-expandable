@@ -1,0 +1,20 @@
+{
+  "name": "cool-expandable",
+  "author": "Alec Bassingthwaighte",
+  "license": "ISC",
+  "keywords": ["Expandable", "UI"],
+  "version": "1.0.0",
+  "types": "dist/types.d.ts",
+  "type": "module",
+  "description": "An expandable web component",
+  "scripts": {
+    "build": "./scripts/build.sh"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "1.0.8",
+    "@types/node": "22.13.7",
+    "prettier": "3.5.2",
+    "typescript": "5.8.2"
+  },
+  "packageManager": "pnpm@9.15.4"
+}

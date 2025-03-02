@@ -1,0 +1,8 @@
+/** Default expandable styles. Can be overriden */
+@layer cool-expandable {
+    cool-expandable {
+        display: block;
+        overflow: hidden;
+        transition: height 300ms linear;
+    }
+}
