@@ -4,11 +4,14 @@
   "license": "ISC",
   "keywords": ["Expandable", "UI"],
   "version": "1.0.0",
-  "types": "dist/types.d.ts",
+  "types": "dist/expandable.d.ts",
   "type": "module",
   "description": "An expandable web component",
   "scripts": {
     "build": "./scripts/build.sh"
+  },
+  "dependencies": {
+    "cool-expandable": "git@github.com:alecbass/cool-expandable.git"
   },
   "devDependencies": {
     "@tsconfig/recommended": "1.0.8",

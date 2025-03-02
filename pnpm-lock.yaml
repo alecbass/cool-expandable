@@ -7,18 +7,22 @@ settings:
 importers:
 
   .:
+    dependencies:
+      cool-expandable:
+        specifier: git@github.com:alecbass/cool-expandable.git
+        version: https://codeload.github.com/alecbass/cool-expandable/tar.gz/c67d0fe73e55b3f3a86fd64ff18c9a78fd63fa9b
     devDependencies:
       '@tsconfig/recommended':
-        specifier: ^1.0.8
+        specifier: 1.0.8
         version: 1.0.8
       '@types/node':
-        specifier: ^22.13.7
+        specifier: 22.13.7
         version: 22.13.7
       prettier:
-        specifier: ^3.5.2
+        specifier: 3.5.2
         version: 3.5.2
       typescript:
-        specifier: ^5.8.2
+        specifier: 5.8.2
         version: 5.8.2
 
 packages:
@@ -28,6 +32,10 @@ packages:
 
   '@types/node@22.13.7':
     resolution: {integrity: sha512-oU2q+BsQldB9lYxHNp/5aZO+/Bs0Usa74Abo9mAKulz4ahQyXRHK6UVKYIN8KSC8HXwhWSi7b49JnX+txuac0w==}
+
+  cool-expandable@https://codeload.github.com/alecbass/cool-expandable/tar.gz/c67d0fe73e55b3f3a86fd64ff18c9a78fd63fa9b:
+    resolution: {tarball: https://codeload.github.com/alecbass/cool-expandable/tar.gz/c67d0fe73e55b3f3a86fd64ff18c9a78fd63fa9b}
+    version: 1.0.0
 
   prettier@3.5.2:
     resolution: {integrity: sha512-lc6npv5PH7hVqozBR7lkBNOGXV9vMwROAPlumdBkX0wTbbzPu/U1hk5yL8p2pt4Xoc+2mkT8t/sow2YrV/M5qg==}
@@ -49,6 +57,8 @@ snapshots:
   '@types/node@22.13.7':
     dependencies:
       undici-types: 6.20.0
+
+  cool-expandable@https://codeload.github.com/alecbass/cool-expandable/tar.gz/c67d0fe73e55b3f3a86fd64ff18c9a78fd63fa9b: {}
 
   prettier@3.5.2: {}
 
