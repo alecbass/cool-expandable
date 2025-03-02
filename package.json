@@ -11,7 +11,7 @@
     "build": "./scripts/build.sh"
   },
   "dependencies": {
-    "cool-expandable": "git@github.com:alecbass/cool-expandable.git"
+    "cool-expandable": "git@github.com:alecbass/cool-expandable.git#types"
   },
   "devDependencies": {
     "@tsconfig/recommended": "1.0.8",

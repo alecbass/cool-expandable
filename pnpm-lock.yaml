@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       cool-expandable:
-        specifier: git@github.com:alecbass/cool-expandable.git
-        version: https://codeload.github.com/alecbass/cool-expandable/tar.gz/c67d0fe73e55b3f3a86fd64ff18c9a78fd63fa9b
+        specifier: git@github.com:alecbass/cool-expandable.git#types
+        version: https://codeload.github.com/alecbass/cool-expandable/tar.gz/7d3479e9f0173682acc5402f0c3a46d8ceaa888a
     devDependencies:
       '@tsconfig/recommended':
         specifier: 1.0.8
@@ -32,6 +32,10 @@ packages:
 
   '@types/node@22.13.7':
     resolution: {integrity: sha512-oU2q+BsQldB9lYxHNp/5aZO+/Bs0Usa74Abo9mAKulz4ahQyXRHK6UVKYIN8KSC8HXwhWSi7b49JnX+txuac0w==}
+
+  cool-expandable@https://codeload.github.com/alecbass/cool-expandable/tar.gz/7d3479e9f0173682acc5402f0c3a46d8ceaa888a:
+    resolution: {tarball: https://codeload.github.com/alecbass/cool-expandable/tar.gz/7d3479e9f0173682acc5402f0c3a46d8ceaa888a}
+    version: 1.0.0
 
   cool-expandable@https://codeload.github.com/alecbass/cool-expandable/tar.gz/c67d0fe73e55b3f3a86fd64ff18c9a78fd63fa9b:
     resolution: {tarball: https://codeload.github.com/alecbass/cool-expandable/tar.gz/c67d0fe73e55b3f3a86fd64ff18c9a78fd63fa9b}
@@ -57,6 +61,10 @@ snapshots:
   '@types/node@22.13.7':
     dependencies:
       undici-types: 6.20.0
+
+  cool-expandable@https://codeload.github.com/alecbass/cool-expandable/tar.gz/7d3479e9f0173682acc5402f0c3a46d8ceaa888a:
+    dependencies:
+      cool-expandable: https://codeload.github.com/alecbass/cool-expandable/tar.gz/c67d0fe73e55b3f3a86fd64ff18c9a78fd63fa9b
 
   cool-expandable@https://codeload.github.com/alecbass/cool-expandable/tar.gz/c67d0fe73e55b3f3a86fd64ff18c9a78fd63fa9b: {}
 
