@@ -6,6 +6,8 @@ For when you ceebs writing the logic yourself.
 
 ## Installation
 ```
+npm i --save cool-expandable
+yarn add cool-expandable
 pnpm add cool-expandable
 ```
 
