@@ -4,6 +4,7 @@
   "license": "ISC",
   "keywords": ["Expandable", "UI"],
   "version": "1.0.0",
+  "main": "dist/expandable.js",
   "types": "dist/expandable.d.ts",
   "type": "module",
   "description": "An expandable web component",

@@ -3,4 +3,4 @@
 src_dir="src"
 out_dir="dist"
 
-tsc && cp ${src_dir}/*.css $out_dir
+tsc -b && cp ${src_dir}/*.css $out_dir

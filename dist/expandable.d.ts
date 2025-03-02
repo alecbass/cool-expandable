@@ -1,5 +1,5 @@
 import "./expandable.css";
-type ExpandableAttribute = "open" | "shrunk-height" | "expanded-height";
+export type ExpandableAttribute = "open" | "shrunk-height" | "expanded-height";
 /** An element which can have a smooth transition between its shrunked and expanded heights. */
 export declare class Expandable extends HTMLElement {
     static observedAttributes: ExpandableAttribute[];
@@ -25,4 +25,3 @@ declare global {
         "cool-expandable": Expandable;
     }
 }
-export {};

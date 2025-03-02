@@ -1,6 +1,6 @@
 import "./expandable.css";
 
-type ExpandableAttribute = "open" | "shrunk-height" | "expanded-height";
+export type ExpandableAttribute = "open" | "shrunk-height" | "expanded-height";
 
 const DEFAULT_SHRUNK_HEIGHT = "120px";
 
